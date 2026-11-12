@@ -1,4 +1,3 @@
-
 from flask import Flask, jsonify
 
 app = Flask(__name__)
@@ -10,3 +9,4 @@ def health():
         "service": "skeleton_short",
         "message": "Vercel API is running"
     })
+
